@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans&display=swap');
+body{
+    background-image: url(./Images/DonutBackground3.jpg);
+}
+
+h1{
+    font-family: var(--titleFont);
+    font-size: 24pt;
+    text-align: center;
+}
+
+.navBar{
+    font-family: var(--bodyFont);
+    font-size: 16pt;
+}
+
+.navBar ul li a{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.navBar ul li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.donut{
+    display: flex;
+    justify-content: center;
+    font-family: var(--bodyFont);
+    font-size: 14pt;
+}
+
+.contactInfo{
+    display: flex;
+    justify-content: center;
+    font-family: var(--bodyFont);
+    font-size: 14pt;
+}
+
+.title-font {
+    font-family: var(--bodyFont);
+    font-size: 18pt;
+    text-align: center;
+}
+
+.body-font {
+    font-family: var(--bodyFont);
+    font-size: 14pt;
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.body-font li a {
+    font-family: var(--bodyFont);
+    font-size: 14pt;
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.body-font li {
+    font-family: var(--bodyFont);
+    font-size: 14pt;
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.display{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button{
+    font-family: var(--bodyFont);
+    font-size: 12pt;
+    margin-bottom: 15px;
+}
+
+:root{
+    --titleFont: "Fredoka One", cursive;
+    --bodyFont: "Open Sans", sans-serif;  
+}
