@@ -47,5 +47,19 @@ class Donut {
         }, 1000);
     }
 
+    restartGame(){
+        this._donutAmount = 0;
+        this._clickerAmount = 0;
+        this._clickerPrice = 100;
+        this._multiplierAmount = 0;
+        this._multiplierPrice = 10; 
+        this.donutTotalCount.innerText = Math.round(this._donutAmount); 
+        this.clickerTotalPrice.innerText = Math.round(this._clickerPrice);
+        this.clickerTotalCount.innerText = Math.round(this._clickerAmount);
+        this.multiplierTotalPrice.innerText = Math.round(this._multiplierPrice);
+        this.multiplierTotalCount.innerText = Math.round(this._multiplierAmount);
+
+    }
+
     
 }

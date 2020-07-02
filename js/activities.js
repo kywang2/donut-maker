@@ -6,6 +6,7 @@ const totalMultiplierPrice = document.querySelector(".donut .display__totalMulti
 const makeDonut = document.querySelector(".donut .bakery__makeDonut")
 const purchaseAutoClicker = document.querySelector(".donut .bakery__activate-auto-clicker")
 const purchaseMultiplier = document.querySelector(".donut .bakery__activate-multiplier")
+const restartGame = document.querySelector(".donut .bakery__restart")
 const donut = new Donut(totalDonutCount, totalAutoClickerCount, totalMultiplierCount, totalAutoClickerPrice, totalMultiplierPrice);
 console.log(donut)
 
@@ -21,6 +22,12 @@ purchaseAutoClicker.addEventListener("click", () => {
 purchaseMultiplier.addEventListener("click", ()=> {
     donut.buyMultiplier();
 })
+
+restartGame.addEventListener("click", ()=> {
+    donut.restartGame();
+})
+
+
 
 
 
