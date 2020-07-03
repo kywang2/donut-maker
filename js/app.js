@@ -16,6 +16,10 @@ class Donut {
     addDonut(){
         this._donutAmount+=Math.pow(1.2, this._multiplierAmount);
         this.donutTotalCount.innerText = Math.round(this._donutAmount);
+        this.clickerTotalPrice.innerText = Math.round(this._clickerPrice);
+        this.clickerTotalCount.innerText = Math.round(this._clickerAmount);
+        this.multiplierTotalPrice.innerText = Math.round(this._multiplierPrice);
+        this.multiplierTotalCount.innerText = Math.round(this._multiplierAmount);
     }
 
     buyAutoClicker(){
